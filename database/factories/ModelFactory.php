@@ -31,7 +31,7 @@ $factory->define(App\Admin::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
-$factory->define(Hchs\Judge\permission\Role::class, function (Faker\Generator $faker) {
+$factory->define(Hchs\Judge\Permission\Role::class, function (Faker\Generator $faker) {
     $name = $faker->name;
     return [
         'name' => $name,
