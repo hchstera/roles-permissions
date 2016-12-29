@@ -21,7 +21,8 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Hchs\\Judge\\": "packages/judge/src/"
+            "Hchs\\Judge\\": "packages/judge/src/",
+            "Tests\\": "tests/"
         }
     },
     "autoload-dev": {
