@@ -9,7 +9,7 @@ return [
     */
 
     'models' => [
-        'users' => 'Hchs\Judge\Permission\FakeUser',
-        // 'admins' => 'App\Admin',
+        'users' => 'App\User',
+        'fakeusers' => 'Hchs\Judge\Permission\FakeUser',
     ],
 ];
